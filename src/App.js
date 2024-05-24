@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 const App = () => {
   useEffect(() => {
     const accessToken =
-      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE2NTM4NjUwLCJpYXQiOjE3MTYzNjU4NTAsImp0aSI6ImVlNmEzYmRjMTZjZjQ3NmQ5MGExMzBiNGEwNDgyYzIzIiwidXNlcl9pZCI6NjF9.LHLG2ia7XiuvAReyqz47AyNRogIr9HXMNQSPxhZVRLI';
+      'YOUR_TOKEN_HERE';
 
     const parts = accessToken.split('.');
     const decodedPayload = atob(parts[1]);
